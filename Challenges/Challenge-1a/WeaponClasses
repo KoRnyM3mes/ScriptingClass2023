@@ -11,7 +11,7 @@ public class Program
     {
         Sword = new Weapon();
         Halberd = new Weapon();
-        Club = new Weapon();
+        BrassKnuckle = new Weapon();
         Quarterstaff = new Weapon();
 
         Sword.damage = 4; //The Sword is a fast and deadly close range option that cant stun
