@@ -1,0 +1,46 @@
+using System;
+
+public class Program
+{
+    public Weapon Sword;
+    public Weapon Halberd;
+    public Weapon Club;
+    public Weapon Quarterstaff;
+
+    public void Main()
+    {
+        Sword = new Weapon();
+        Halberd = new Weapon();
+        Club = new Weapon();
+        Quarterstaff = new Weapon();
+
+        Sword.damage = 3;
+        Sword.speed = 4;
+        Sword.stun = 0;
+        Sword.range = 2;
+
+        Halberd.damage = 5;
+        Halberd.speed = 1;
+        Halberd.stun = 1;
+        Halberd.range = 4;
+
+        Club.damage = 2;
+        Club.speed = 3;
+        Club.stun = 5;
+        Club.range = 1;
+
+        Quarterstaff.damage = 2;
+        Quarterstaff.speed = 2;
+        Quarterstaff.stun = 4;
+        Quarterstaff.range = 4;
+
+    }
+}
+
+public class Weapon
+{
+    public int damage;
+    public int speed;
+    public int stun;
+    public int range;
+}
