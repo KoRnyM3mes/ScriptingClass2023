@@ -6,4 +6,4 @@ public class CorrectTheErrors
     {
          Console.WriteLine("HW");
     }
-}
+} // fixed code for challenge
