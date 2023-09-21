@@ -10,13 +10,16 @@ public class ThermoSafe
 
     public void Compare(int temp)
     {
-        if (temp < 31)
+        if (temp > 30)
         {
-            Console.WriteLine("The weather looks great, Have a good day!"); //encourages a good day
+            Console.WriteLine("It is rather hot today, make sure to stay hydrated and avoid direct sunlight."); //warns user of hot day
+        } else if (temp < 9) {
+            Console.WriteLine("It is rather cold today, be sure to wear multiple layers. Maybe enjoy some hot cocoa!");
+            //warns users if it is cold today
         } else {
-            Console.WriteLine("It is rather hot today, make sure to stay hydrated and avoid direct sunlight.");
-            //warns users of the current state of the weather
+            Console.WriteLine("The weather looks great, Have a good day!");
+            //tells user to have a good day
         }
     }
 
-}
+}//outputs a good day message with current settings
