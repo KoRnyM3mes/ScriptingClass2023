@@ -16,6 +16,5 @@ public class FoodFave
         {
             Console.WriteLine("I love " + i + "!"); //Writes the same message for each item in the array
         }
-        Console.ReadKey();
     }
 }
